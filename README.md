@@ -1,1 +1,1 @@
-i# school-portal
+SCHOOL PORTAL WITH CSS & JS
