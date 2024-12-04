@@ -1,0 +1,11 @@
+@media (min-width: 481px) and (max-width: 768px) {
+  .reportCard-section .group-inputs {
+    flex-direction: column !important;
+    gap: 15px !important;
+    margin-bottom: 25px !important;
+  }
+
+  .reportCard-section .row-wrap .rows {
+    grid-template-columns: 1fr !important;
+  }
+}

@@ -1,0 +1,9 @@
+@media (max-width: 480px) {
+  .page-header header {
+    padding: 0 15px !important;
+  }
+
+  .page-header header .account-name {
+    display: none;
+  }
+}

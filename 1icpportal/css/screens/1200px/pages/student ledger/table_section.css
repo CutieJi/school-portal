@@ -1,0 +1,121 @@
+@media (min-width: 1025px) {
+  .transaction-history {
+    background-color: #eaeaea;
+    border-radius: 15px;
+    margin-top: 30px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .transaction-history header {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0275d8;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .transaction-history header h2 {
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+  }
+
+  .transaction-history .selector {
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding: 20px 0 30px 0;
+  }
+
+  .transaction-history .group-inputs {
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+
+  .transaction-history .wrapper {
+    padding: 0 10px;
+  }
+
+  .transaction-history .input-box {
+    width: 100%;
+    height: 40px;
+    border: 2px lightgray solid;
+    border-bottom: none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 13px;
+    background-color: white;
+    color: #1c1c1c;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    text-align-last: center;
+    cursor: pointer;
+  }
+
+  .transaction-history .group-inputs option {
+    text-align: center;
+  }
+
+  .transaction-history .btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .transaction-history .proceed-btn {
+    width: 90%;
+    height: 40px;
+    border: none;
+    background-color: #0275d8;
+    color: white;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    transition: color 200ms background-color 200ms;
+    cursor: pointer;
+  }
+
+  .transaction-history .proceed-btn:active {
+    background-color: #0275d8;
+    color: lightgray;
+  }
+
+  .transaction-history td:nth-child(2) {
+    text-align: left;
+  }
+
+  .transaction-history tr:nth-child(n + 4) {
+    background-color: #ffff95;
+  }
+
+  .permit-history {
+    background-color: #eaeaea;
+    border-radius: 15px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 50px;
+  }
+
+  .permit-history .wrapper {
+    padding: 10px 10px;
+    margin-top: 20px;
+  }
+
+  .permit-history td:last-child {
+    background: #ffff95;
+    color: #0275d8;
+  }
+
+  .permit-history table .yes {
+    color: #1bb300;
+  }
+}

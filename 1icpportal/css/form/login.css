@@ -1,0 +1,73 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 33px;
+}
+
+.login-form h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  border-bottom: 2px skyblue solid;
+  padding-bottom: 15px;
+  margin-top: 34px;
+  background: linear-gradient(97.55deg, #0275d8 20%, #5bc0de 60%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.login-form #access {
+  text-align-last: center;
+}
+
+.login-form .input-box {
+  height: 44px;
+  margin-top: 15px;
+  border: 2px lightgray solid;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  background-color: white;
+  color: #1c1c1c;
+  padding: 0 10px;
+}
+
+.login-form .login-btn {
+  height: 44px;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  color: white;
+  margin-top: 20px;
+  background: linear-gradient(90.37deg, #0275d8 0%, #5bc0de 100%);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.login-form .login-btn:active {
+  background: linear-gradient(90.37deg, #0275d8 0%, #5bc0de 100%);
+  color: rgb(202, 202, 202);
+}
+
+.login-form .new-student {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  margin-top: 15px;
+  text-align: center;
+  color: #0275d8;
+}
+
+.login-form span {
+  color: #0073de;
+  cursor: pointer;
+}
+
+.login-form span:active {
+  color: #005db4;
+}

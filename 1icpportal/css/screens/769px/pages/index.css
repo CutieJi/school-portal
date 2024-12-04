@@ -1,0 +1,46 @@
+@media (max-width: 1024px) {
+  section {
+    width: 100%;
+    flex-direction: column;
+    margin: 0 0;
+  }
+
+  section .container-left {
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+
+  .container-left .content {
+    text-align: center;
+    margin: 0;
+  }
+
+  .container-left h1 {
+    justify-content: center;
+  }
+
+  .container-left h3 {
+    margin-top: 30px;
+  }
+
+  section form {
+    height: 100Vh;
+    width: 100%;
+    border-radius: 0;
+    padding-top: 30px;
+  }
+
+  section form .login-form {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  section form .signup-form {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}

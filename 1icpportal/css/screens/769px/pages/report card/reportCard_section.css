@@ -1,0 +1,123 @@
+@media (max-width: 1024px) {
+  .reportCard-section {
+    background-color: #eaeaea;
+    border-radius: 15px;
+    margin-top: 30px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .reportCard-section header {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0275d8;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .reportCard-section header h2 {
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+  }
+
+  .reportCard-section .selector {
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding: 20px 0 30px 0;
+  }
+
+  .reportCard-section .wrapper {
+    padding: 0 10px;
+  }
+
+  .reportCard-section .group-inputs {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+
+  .reportCard-section label {
+    width: 100%;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .reportCard-section .input-box {
+    width: 100%;
+    height: 40px;
+    border: 2px lightgray solid;
+    border-bottom: none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 13px;
+    background-color: white;
+    color: #1c1c1c;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    text-align-last: center;
+    cursor: pointer;
+  }
+
+  .reportCard-section .btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .reportCard-section .proceed-btn {
+    width: 90%;
+    height: 40px;
+    border: none;
+    background-color: #0275d8;
+    color: white;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    transition: color 200ms background-color 200ms;
+    cursor: pointer;
+  }
+
+  .reportCard-section .row-wrap .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    background-color: #0275d8;
+    border-top: none;
+    border-radius: 5px;
+  }
+
+  .reportCard-section .row-wrap .rows .row {
+    border-radius: 5px;
+  }
+
+  .reportCard-section .row-wrap .header h2 {
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+  }
+
+  .reportCard-section .row-wrap .rows {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+
+  .reportCard-section .row-wrap .rows p:nth-child(n + 7) span:nth-child(2) {
+    color: lightgray;
+  }
+}

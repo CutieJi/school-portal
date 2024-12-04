@@ -1,0 +1,33 @@
+@media (max-width: 1024px) {
+    .row-wrap {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .row-wrap .row {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 100%;
+        padding: 15px;
+        background-color: white;
+        font-size: 13px;
+        border-top: 3px #0275d8 solid;
+    }
+
+    .row-wrap .row p {
+        display: flex;
+    }
+
+    .row-wrap .row p span:nth-child(1) {
+        font-weight: bold;
+        width: 40%;
+    }
+
+    .row-wrap .row p span:nth-child(2) {
+        width: 60%;
+    }
+}

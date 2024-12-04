@@ -1,0 +1,60 @@
+{
+    "Transaction": {
+        "2024-2": [
+            {
+                "No": "1",
+                "Description": "Strand Shirt",
+                "Date/Time": "12/4/2024",
+                "TotalBalance": "₱1,100",
+                "Cash": "₱170",
+                "Balance": "₱830"
+            }
+        ],
+        "2024-1": [
+            {
+                "No": "1",
+                "Description": "ID LACE",
+                "Date/Time": "9/23/2024",
+                "TotalBalance": "",
+                "Cash": "₱100",
+                "Balance": ""
+            },
+            {
+                "No": "3",
+                "Description": "SF G12 PARTIAL",
+                "Date/Time": "6/19/2024",
+                "TotalBalance": "₱500",
+                "Cash": "₱200",
+                "Balance": "₱300"
+            }
+        ]
+    },
+    "ExamPermit": {
+        "CurrentSem": [
+            {
+                "Exam": "Prelim (33%)",
+                "RequiredAmount": "3,415.50",
+                "Balance": "0.00",
+                "ExamPermit": "Yes"
+            },
+            {
+                "Exam": "Midterm (22%)",
+                "RequiredAmount": "2,277.00",
+                "Balance": "2,192.50",
+                "ExamPermit": "No"
+            },
+            {
+                "Exam": "Pre-Final (22%)",
+                "RequiredAmount": "2,277.00",
+                "Balance": "2,277.00",
+                "ExamPermit": "No"
+            },
+            {
+                "Exam": "Final (23%)",
+                "RequiredAmount": "2,380.50",
+                "Balance": "2,380.50",
+                "ExamPermit": "No"
+            }
+        ]
+    }
+}

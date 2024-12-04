@@ -1,0 +1,9 @@
+@media (min-width: 481px) and (max-width: 768px) {
+  .transaction-history .row-wrap .rows {
+    grid-template-columns: 1fr !important;
+  }
+
+  .permit-history .row-wrap .rows {
+    grid-template-columns: 1fr !important;
+  }
+}

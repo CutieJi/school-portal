@@ -1,0 +1,85 @@
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 33px;
+}
+
+.signup-form .back-container {
+  position: relative;
+  margin-top: 30px;
+}
+
+.signup-form .head-container {
+  font-weight: 700;
+  text-align: center;
+  border-bottom: 2px skyblue solid;
+  padding-bottom: 15px;
+  background: linear-gradient(97.55deg, #0275d8 20%, #5bc0de 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  margin-bottom: 15px;
+}
+
+.signup-form .backBTN {
+  position: absolute;
+  top: 5px;
+  left: -5px;
+  font-size: 30px;
+  padding: 5px;
+  color: rgb(180, 180, 180);
+  cursor: pointer;
+}
+
+.signup-form .backBTN:active {
+  color: rgb(163, 163, 163);
+}
+
+.signup-form .head-container h3 {
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.signup-form .head-container h1 {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 38px;
+}
+
+.signup-form .next-btn {
+  height: 44px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  color: white;
+  margin-top: 5px;
+  background: linear-gradient(90.37deg, #0275d8 0%, #5bc0de 100%);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.signup-form .next-btn:active {
+  background: linear-gradient(90.37deg, #0275d8 0%, #5bc0de 100%);
+  color: rgb(202, 202, 202);
+}
+
+.signup-form .back-to-login {
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 15px;
+  text-align: center;
+  color: #0073de;
+}
+
+.signup-form .back-to-login {
+  color: #0073de;
+  cursor: pointer;
+}
+
+.signup-form .back-to-login:active {
+  color: #005db4;
+}

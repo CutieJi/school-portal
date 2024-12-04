@@ -1,0 +1,164 @@
+@media (min-width: 1200px) {
+  .current-page {
+    width: calc(100% - 260px);
+    height: 100vh;
+  }
+
+  .page-content {
+    width: 100%;
+    height: calc(100% - 60px);
+    padding: 0 30px;
+    padding-bottom: 15%;
+    overflow-y: scroll;
+  }
+
+  @media (hover: hover) {
+    .current-page .sub-prof button:hover {
+      background-color: #eaeaea;
+    }
+  }
+
+  .current-page .sub-prof button:active {
+    background-color: rgb(219, 219, 219);
+  }
+
+  .page-header {
+    width: 100%;
+    height: 60px;
+  }
+
+  .current-page .sub-wrap {
+    display: none;
+    z-index: 10;
+    width: 265px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    padding-top: 44px;
+  }
+
+  .current-page #close-sub-profile {
+    position: absolute;
+    z-index: 100;
+    color: lightgray;
+    top: 20px;
+    left: 15px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  .current-page .sub-prof {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .current-page .sub-prof .change-profile {
+    overflow: hidden;
+    position: relative;
+    max-width: 98px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+
+  .current-page .sub-prof .change-profile:active {
+    transform: scale(.98);
+  }
+
+  .current-page .sub-prof .change-profile img {
+    max-width: 100%;
+  }
+
+  .current-page .sub-prof .change-profile .camera-icon {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    background-color: hsla(0, 0%, 11%, 0.3);
+  }
+
+  .current-page .sub-prof h4 {
+    margin-bottom: 40px;
+  }
+
+  .current-page .sub-prof hr {
+    border: 1px lightgray solid;
+    width: 100%;
+  }
+
+  .current-page .sub-prof button {
+    width: 100%;
+    height: 42px;
+    border: none;
+    outline: none;
+    background-color: white;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #1c1c1c;
+    cursor: pointer;
+  }
+
+  .page-header header {
+    position: sticky;
+    z-index: 5;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    padding: 0 30px;
+  }
+
+  .page-header .left-group i {
+    display: none;
+  }
+
+  .page-header header h1 {
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.005em;
+    color: #1c1c1c;
+  }
+
+  .page-header header .account {
+    display: flex;
+    justify-content: center;
+    position: inherit;
+    align-items: center;
+    text-align: right;
+    font-size: 13px;
+    letter-spacing: 0.005em;
+    color: #1c1c1c;
+  }
+
+  .page-header header .account-name h4:nth-child(1) {
+    font-weight: 700;
+  }
+
+  .page-header header .account-name h4:nth-child(2) {
+    font-weight: normal;
+  }
+
+  .page-header header .account img {
+    max-width: 40px;
+    border-radius: 100%;
+    margin-left: 10px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+  }
+
+  .page-header header .account img:active {
+    transform: scale(0.95);
+  }
+}

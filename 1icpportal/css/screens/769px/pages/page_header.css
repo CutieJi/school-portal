@@ -1,0 +1,6 @@
+@media (max-width: 1024px) {
+  .page-content {
+    padding: 0 3% !important;
+    padding-bottom: 200px !important;
+  }
+}

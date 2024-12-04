@@ -1,0 +1,7 @@
+@media (max-width: 480px) {
+  .side-navigation {
+    width: 70%;
+    max-width: 265px;
+    height: 100%;
+  }
+}

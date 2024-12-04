@@ -1,0 +1,5 @@
+@media (min-width: 481px) and (max-width: 768px) {
+  .page-header header .account-name {
+    display: none;
+  }
+}

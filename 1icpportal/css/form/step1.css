@@ -1,0 +1,82 @@
+.signup-form .input-box {
+  width: 100%;
+  height: 44px;
+  margin-bottom: 15px;
+  border: 2px lightgray solid;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 15px;
+  background-color: white;
+  color: #1c1c1c;
+  padding: 0 10px;
+  text-overflow: ellipsis;
+}
+
+.signup-form .group-input {
+  width: 100%;
+  display: flex;
+  gap: 15px;
+}
+
+.signup-form .gender {
+  margin-bottom: 15px;
+}
+
+.group-input .option {
+  background: #fff;
+  height: 44px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  padding: 0 10px;
+  cursor: pointer;
+  border: 2px solid lightgrey;
+}
+
+.group-input .option .dot {
+  height: 20px;
+  width: 20px;
+  background: #d9d9d9;
+  border-radius: 50%;
+  position: relative;
+}
+
+.group-input .option .dot::before {
+  position: absolute;
+  content: "";
+  top: 4px;
+  left: 4px;
+  width: 12px;
+  height: 12px;
+  background: #ffffff;
+  border-radius: 50%;
+  opacity: 1;
+  transform: scale(1);
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+#option-1:checked:checked~.option-1 .dot,
+#option-2:checked:checked~.option-2 .dot {
+  background: #0275d8;
+}
+
+#option-1:checked:checked~.option-1 .dot::before,
+#option-2:checked:checked~.option-2 .dot::before {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.wrapper .option span {
+  font-size: 20px;
+  color: #808080;
+}
+
+#option-1:checked:checked~.option-1 span,
+#option-2:checked:checked~.option-2 span {
+  color: #1c1c1c;
+}

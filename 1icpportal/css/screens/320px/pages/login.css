@@ -1,0 +1,7 @@
+@media (max-width: 480px) {
+  .login-form h1 {
+    font-size: 40px !important;
+    line-height: auto !important;
+    padding-bottom: 8px !important;
+  }
+}

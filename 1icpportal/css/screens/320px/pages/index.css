@@ -1,0 +1,57 @@
+@media (max-width: 480px) {
+
+  body {
+    position: fixed;
+    background-position: left;
+  }
+
+  header {
+    position: fixed;
+    min-width: 320px;
+    position: relative;
+    z-index: 5;
+    height: 90px;
+    padding-top: 0;
+    background: linear-gradient(130.55deg, #0275d8 30%, #5bc0de 90%);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  img {
+    max-height: 65px;
+  }
+
+  .school-name h2:nth-child(1) {
+    font-size: 14px;
+  }
+
+  .school-name h2:nth-child(2) {
+    font-size: 12px;
+  }
+
+  section {
+    min-width: 320px;
+    height: calc(100vh - 85px);
+    flex-direction: column;
+  }
+
+  section .container-left {
+    display: none;
+  }
+
+  .container-left .content {
+    text-align: center;
+    margin: 0;
+  }
+
+  .container-left h3 {
+    margin-top: 30px;
+  }
+
+  section form {
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+    background: hsl(0, 0%, 100%);
+    padding-top: 20px;
+  }
+}
